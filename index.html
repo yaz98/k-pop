@@ -1,0 +1,411 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+<script src="js/funciones.js" type="text/javascript">
+</script>
+</head> 
+<body > 
+
+<div data-role="page" id="Menu">
+
+	<div data-role="header">
+		<h1>Menu Principal</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Historia" data-transition="flip"> K-Pop</a></li>
+            <li><a href="#Fotos " data-transition="flip">Galeria</a></li>
+			<li><a href="#Banda" data-transition="flip">Bandas</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+        	<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Historia">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>Página dos</h1>
+	</div>
+	<div data-role="content" align="center">	
+		<a href="#kpop" data-rel="popup" data-position-to="window">
+    <img src="Imagenes/kpop.jpg" alt="kp" style="width:100px";></a>
+    
+    
+    <div data-role="popup" id="kpop">
+     <p>¡K-Pop :3!</p>
+     <a href="#kpop" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="Imagenes/kpop.jpg" style="width:800px;height:600px;" alt="kp"> </div>
+   	
+	</div>
+    <center>
+    <table width="200" border="1">
+  <tr bgcolor="#99FF66">
+    <td>Origenes Musicales</td>
+    <td>Origenes culturales </td>
+    <td>Instrumentos comunes</td>
+    <td>Popularidad</td>
+  </tr>
+  <tr bgcolor="#CCFF99">
+    <td> 
+    <ol>
+<li> Dance-Pop </li>
+<li> Hip-Hop</li> 
+<li> Rap </li>
+<li> Rock </li>
+<li> pop rad </li>
+<li> Electropop </li>
+</ol></td>
+    <td> Años 1990, Corea del sur </td>
+    <td>
+     <ol>
+<li> Bateria Electrónica  </li>
+<li> Caja de ritmos  </li> 
+<li> Sintetizador </li>
+<li> Teclado  </li>
+<li> Bajo Eléctrico  </li>
+<li> Guitarra Eléctrica  </li>
+</ol></td>
+    <td>Muy popular en Asia Expandiendo su popularidad en el oriente medio y el mundo occidental</td>
+  </tr>
+</table>
+
+  </center>
+    
+    
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+	</div>
+</div>
+</div>
+
+<div data-role="page" id="Fotos">
+	<div data-role="header">
+      <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>Página tres</h1>
+	</div>
+	<div data-role="content" >	
+	<p> Desliza sobre el cuadro de texto. </p>
+     <p Style="border:1px solid black;height:200px;width:200px;"></p>
+     <p><span style="color:red"></span></p>		
+        
+        
+  <center>
+  <table width="1288" border="1">
+  <tr bgcolor="#FF99CC">
+  
+    <td align="center" > 
+         (  ) (  )
+         <br> 
+         (>°.°<)
+         <br>
+         (" ) (" )
+         <br> 
+                      K-Pop</td> 
+  </tr>
+</table>
+
+
+   	
+ 
+ <table width="200" border="1">
+  <tr>
+    <td > <img src="Imagenes/kpop1.jpg"  width="250" height="200" alt="alt1"> </td>
+    <td><img src="Imagenes/kpop2.jpg"  width="250" height="200" alt="alt2"></td>
+    <td><img src="Imagenes/kpop3.jpg"  width="250" height="200" alt="alt3"></td>
+    <td><img src="Imagenes/kpop4.jpg"  width="250" height="200" alt="alt4"></td>
+    <td><img src="Imagenes/kpop5.jpg"  width="250" height="200" alt="alt5"></td>
+  </tr>
+</table><p>
+
+
+
+     <table width="1288" border="1">
+  <tr bgcolor="#FF99CC">
+    <td align="center">
+       (\(\
+       <BR>
+       (=':')
+       <BR>
+       (,(")(")
+       <BR>
+        FRACES</td>
+  </tr>
+</table>
+
+
+
+ <table width="200" border="1">
+  <tr>
+    <td><img src="Imagenes/kpopf1.jpg" width="250" height="200" alt="mfk1"> </td>
+    <td><img src="Imagenes/kpopf3.jpg" width="250" height="200" alt="mfk3">  </td>
+    <td><img src="Imagenes/kpopf2.jpg" width="250" height="200" alt="mfk2"> </td>
+    <td><img src="Imagenes/kpopf4.jpg" width="250" height="200" alt="mfk4"> </td>
+    <td><img src="Imagenes/kpopf5.jpg" width="250" height="200" alt="mfk5"> </td>
+  </tr>
+</table>
+</center>
+        
+        	
+	</div>
+	<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Banda">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> BACK </a>
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content" align="center">	
+		<a href="#superjunior" data-rel="popup" data-position-to="window">
+    <img src="Imagenes/superjunior.jpg" alt="sj" style="width:100px";></a>
+    
+    <div data-role="popup" id="superjunior">
+     <p>¡Super Juniuor! ^.^ </p>
+     <a href="#superjunior" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="Imagenes/superjunior.jpg" style="width:800px;height:800px;" alt="sj"> </div>
+     
+    	
+     
+     <center>
+     
+  
+<table width="200" border="1">
+  <tr bgcolor="#0080C0">
+    <td>Nombre de la banda;</td>
+    <td>Origen</td>
+    <td>Miembros</td>
+  </tr>
+  <tr bgcolor="#0080C0">
+    <td>Super Junior</td>
+    <td>Corea del sur</td>
+    <td> <ol>
+    Leeteuk	이특
+    Heechul	희철
+    Yesung	예성
+    Kang-in	강인
+    Eunhyuk	은혁
+    Siwon	시원
+    Donghae	동해
+    Ryeowook	려욱
+    Kyuhyun	규현
+    </td>
+  </tr>
+</table>
+
+<br>
+
+ <a href="#GG" data-rel="popup" data-position-to="window">
+    <img src="Imagenes/GG.jpg" alt="sj" style="width:100px";></a>
+    
+    <div data-role="popup" id="GG">
+     <p>¡Girls Generation! ^.^ </p>
+     <a href="#GG" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="Imagenes/GG.jpg" style="width:800px;height:700px;" alt="Gg"> </div>
+     
+    	
+<table width="200" border="1">
+  <tr bgcolor="#CC0066">
+    <td>Nombre de la banda;</td>
+    <td>Origen</td>
+    <td>Miembros</td>
+  </tr>
+  <tr bgcolor="#CC0066">
+    <td>Girls Generation</td>
+    <td>Corea del sur</td>
+    <td> <ol>
+   Taeyeon	태연
+   Sunny	써니
+    Tiffany	티파니
+    Hyoyeon	효연
+   Yuri	유리
+    Sooyoung	수영
+   Yoona	윤아
+   Seohyun	서현
+   
+    </td>
+  </tr>
+</table>
+<br>
+
+<a href="#Bb" data-rel="popup" data-position-to="window">
+    <img src="Imagenes/BBB.jpg" alt="sj" style="width:100px";></a>
+    
+    <div data-role="popup" id="Bb">
+     <p>¡Big Bang!  ^.^ </p>
+     <a href="#Bb" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="Imagenes/BBB.jpg" style="width:900px;height:500px;" alt="Bb"> </div>
+     
+     
+     <table width="200" border="1">
+  <tr bgcolor="#FF0000">
+    <td>Nombre de la banda;</td>
+    <td>Origen</td>
+    <td>Miembros</td>
+  </tr>
+  <tr bgcolor="#CC0000">
+    <td>BIG BANG</td>
+    <td>Corea del sur</td>
+    <td> <ol>
+   T.O.P	탑
+  Taeyang	태양
+    G-Dragon	지드래곤
+    Daesung	대성
+  SeungRi	승리
+    </td>
+  </tr>
+</table>
+<BR>
+
+
+<a href="#Ss" data-rel="popup" data-position-to="window">
+    <img src="Imagenes/Ss501.jpg" alt="sj" style="width:100px";></a>
+    
+    <div data-role="popup" id="Ss">
+     <p>¡Big Bang!  ^.^ </p>
+     <a href="#Ss" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="Imagenes/Ss501.jpg" style="width:900px;height:600px;" alt="Ss"> </div>
+     	
+        
+        <table width="200" border="1">
+  <tr bgcolor="#003399">
+    <td>Nombre de la banda;</td>
+    <td>Origen</td>
+    <td>Miembros</td>
+  </tr>
+  <tr bgcolor="#003399" >
+    <td>Ss501</td>
+    <td>Corea del sur</td>
+    <td> <ol>
+  Kim Hyun Joong (김현중)
+  Heo Young Saeng (허영생)
+    Kim Kyu Jong (김규종)
+    Park Jung Min (박정민)
+ Kim Hyung Jun (김형준)
+    </td>
+  </tr>
+</table>
+</center>
+</div>
+
+
+
+
+        
+        
+        
+	
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+         </li>
+           <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda
+          </a>
+         </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          Contacto
+          </a>
+         </li>
+         </ul>
+    </div>
+	</div>
+</div>
+
+
+<div data-role="page" id="ayuda">
+  <div data-role="header">
+    <h1>Pagina de ayuda</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer">
+    <h4>Pie</h4>
+  </div>
+</div>
+<div data-role="page" id="contacto">
+  <div data-role="header">
+    <h1>Pagina de contacto</h1>
+  </div>
+  <div data-role="content">Contenido</div>
+  <div data-role="footer">
+    <h4>Pie</h4>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
